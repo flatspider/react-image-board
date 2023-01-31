@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/flatspider.github.io/react-image-board/static/css/main.92d751d0.css",
-    "main.js": "/flatspider.github.io/react-image-board/static/js/main.06fc6224.js",
-    "static/js/787.0e07229f.chunk.js": "/flatspider.github.io/react-image-board/static/js/787.0e07229f.chunk.js",
-    "index.html": "/flatspider.github.io/react-image-board/index.html",
-    "main.92d751d0.css.map": "/flatspider.github.io/react-image-board/static/css/main.92d751d0.css.map",
-    "main.06fc6224.js.map": "/flatspider.github.io/react-image-board/static/js/main.06fc6224.js.map",
-    "787.0e07229f.chunk.js.map": "/flatspider.github.io/react-image-board/static/js/787.0e07229f.chunk.js.map"
+    "main.css": "/react-image-board/static/css/main.92d751d0.css",
+    "main.js": "/react-image-board/static/js/main.54b93c37.js",
+    "static/js/787.0e07229f.chunk.js": "/react-image-board/static/js/787.0e07229f.chunk.js",
+    "index.html": "/react-image-board/index.html",
+    "main.92d751d0.css.map": "/react-image-board/static/css/main.92d751d0.css.map",
+    "main.54b93c37.js.map": "/react-image-board/static/js/main.54b93c37.js.map",
+    "787.0e07229f.chunk.js.map": "/react-image-board/static/js/787.0e07229f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92d751d0.css",
-    "static/js/main.06fc6224.js"
+    "static/js/main.54b93c37.js"
   ]
 }
