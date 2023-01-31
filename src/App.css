@@ -2,9 +2,39 @@
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+}
+
+form {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.form-control {
+  width: 20em;
+  margin: 0;
+  margin-left: 30em;
+}
+
+.btn {
+  margin: 0;
+  margin-left: 1em;
+}
+img {
+  max-width: 50%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+li {
+  margin-bottom: 40px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
