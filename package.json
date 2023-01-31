@@ -1,7 +1,7 @@
 {
   "name": "react-image-board",
   "version": "0.1.0",
-  "homepage": "flatspider.github.io/react-image-board",
+  "homepage": "https://flatspider.github.io/react-image-board",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
