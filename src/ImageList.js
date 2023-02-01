@@ -1,6 +1,12 @@
 import "./App.css";
+
 function ImageList({ images }) {
+  // Destructuring and ripping images prop. by {images}
   // This function is passed an array of images.
+
+  // const imagesHTML = images.map((image, index) => <li key={index}><img src={image.imageURL}>)
+  // return ({imagesHTML})
+
   return (
     <ul>
       <li>

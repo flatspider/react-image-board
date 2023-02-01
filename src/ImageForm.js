@@ -8,6 +8,9 @@ function ImageForm({ onSubmit }) {
   const handleSubmit = (submits) => {
     submits.preventDefault(); // Stops the button from refreshing the page.
     onSubmit({ imageURL, caption }); // Pull in the values of image and caption that the user typed.
+    // const newImage = {url, caption}; url: url, and caption: caption
+    // using onSubmit destructuring to call the handleSubmit function on the image board.
+    // onSubmit(newImage); This uses my function to read the image.
     setImageURL(""); // Clears the input box.
     setImageCaption("");
   };
@@ -15,8 +18,8 @@ function ImageForm({ onSubmit }) {
   return (
     <form onSubmit={handleSubmit}>
       <input
-        type="text"
-        name="name"
+        type="url"
+        name="url"
         className="form-control imageURL"
         id="imageURL"
         autoComplete="off"
@@ -26,7 +29,7 @@ function ImageForm({ onSubmit }) {
       ></input>
       <input
         type="text"
-        name="name"
+        name="caption"
         className="form-control captionSubmission"
         id="captionSubmission"
         autoComplete="off"
