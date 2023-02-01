@@ -22,19 +22,16 @@ const INITIAL_IMAGES = [
 ];
 
 function ImageBoard() {
-  const [images, setImages] = useState(INITIAL_IMAGES);
-  // this contains all of the images
-  // Also need variable for caption
+  const [images, setImages] = useState([]); // Sets image array to empty.
 
-  //const todosHTML = todos.map((todo) => <Todo key={todo.id} todo={todo} />);
-  //const imageHTML = images.map((image) => (
-  // <ImageList src={image.imageURL}></ImageList>
-  //));
+  const handleSubmit = (newImage) => {
+    setImages([...images, newImage]);
+  };
 
   return (
     <div>
-      {ImageForm()}
-      {ImageList()}
+      <ImageForm onSubmit={handleSubmit} />
+      <ImageList images={images} />
     </div>
   );
 }
